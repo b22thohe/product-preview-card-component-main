@@ -5,6 +5,7 @@ p {
 }
 
 h1 {
+  font-family: abs.$font-heading;
   font-size: abs.$fontsize-h1;
 }
 
@@ -18,6 +19,15 @@ button span {
   font-weight: 700;
   line-height: 1;
   color: abs.$neutral-white-color;
+}
+
+.product-category {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.product-category, .description {
+  font-family: abs.$font-body;
 }
 
 .product-price {

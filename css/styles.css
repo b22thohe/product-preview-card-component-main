@@ -3,6 +3,7 @@ p {
 }
 
 h1 {
+  font-family: "Fraunces", serif;
   font-size: 4rem;
 }
 
@@ -16,6 +17,15 @@ button span {
   font-weight: 700;
   line-height: 1;
   color: hsl(0, 0%, 100%);
+}
+
+.product-category {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.product-category, .description {
+  font-family: "Montserrat", sans-serif;
 }
 
 .product-price {
@@ -45,6 +55,28 @@ button span {
   display: block;
 }
 
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.product-price,
+.product-prev-price {
+  line-height: 0.3;
+}
+
+.product-price {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.product-prev-price {
+  font-size: 1.4rem;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
 html, body {
   font-size: 62.5%;
 }
@@ -52,6 +84,10 @@ html, body {
 body {
   box-sizing: border-box;
   background-color: hsl(30, 38%, 92%);
+}
+
+.description {
+  margin-bottom: 0;
 }
 
 

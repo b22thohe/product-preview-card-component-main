@@ -1,0 +1,23 @@
+@use '../abstracts' as abs;
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.product-price,
+.product-prev-price {
+  line-height: 0.3;
+}
+
+.product-price {
+  font-size: abs.$fontsize-h1;
+  font-weight: 700;
+}
+
+.product-prev-price {
+  font-size: abs.$fontsize-p;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
