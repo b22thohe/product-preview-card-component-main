@@ -1,9 +1,9 @@
-@use '../abstracts/variables' as var;
+@use '../abstracts' as abs;
 
 p {
-  font-size: var.$fontsize-p;
+  font-size: abs.$fontsize-p;
 }
 
 h1 {
-  font-size: var.$fontsize-h1;
+  font-size: abs.$fontsize-h1;
 }

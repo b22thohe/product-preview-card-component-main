@@ -1,18 +1,16 @@
 // Abstracts
-@use 'abstracts/variables' as var;
-@use 'abstracts/mixins';
+@use 'abstracts' as abs;
 
 // Base
-@use 'base/base';
-@use 'base/typography' as typ;
+@use 'base' as base;
 
 // Layout
-@use 'layout/container';
+@use 'layout' as lay;
 
 html, body {
   font-size: 62.5%;
 }
 
 body {
-  background-color: var.$primary-bgc;
+  background-color: abs.$primary-bgc;
 }

@@ -1,17 +1,17 @@
-p {
-  font-size: 1.4rem;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 8 | @use 'layout' as lay;
+ *   | ^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   styles.scss 8:1  root stylesheet */
 
-h1 {
-  font-size: 2rem;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 8 \2502  @use 'layout' as lay;\d\a   \2502  ^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   styles.scss 8:1  root stylesheet";
 }
-
-html, body {
-  font-size: 62.5%;
-}
-
-body {
-  background-color: hsl(30, 38%, 92%);
-}
-
-/*# sourceMappingURL=styles.css.map */
