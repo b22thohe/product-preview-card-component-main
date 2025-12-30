@@ -7,10 +7,14 @@
 // Layout
 @use 'layout' as lay;
 
+// Components
+@use 'components' as comp;
+
 html, body {
   font-size: 62.5%;
 }
 
 body {
+  box-sizing: border-box;
   background-color: abs.$primary-bgc;
 }

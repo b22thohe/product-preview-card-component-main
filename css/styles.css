@@ -3,7 +3,46 @@ p {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 4rem;
+}
+
+button img {
+  font-size: 1.6rem;
+}
+
+button span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: hsl(0, 0%, 100%);
+}
+
+.product-price {
+  font-family: "Fraunces", serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+
+.btn {
+  display: flex;
+  align-items: center; /* vertical centering */
+  justify-content: center;
+  gap: 1rem;
+  background-color: hsl(158, 36%, 37%);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 10px;
+  padding: 1.8rem 0;
+}
+
+.btn img {
+  width: 1em;
+  height: 1em;
+  display: block;
 }
 
 html, body {
@@ -11,7 +50,10 @@ html, body {
 }
 
 body {
+  box-sizing: border-box;
   background-color: hsl(30, 38%, 92%);
 }
+
+
 
 /*# sourceMappingURL=styles.css.map */

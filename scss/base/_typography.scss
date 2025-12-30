@@ -7,3 +7,22 @@ p {
 h1 {
   font-size: abs.$fontsize-h1;
 }
+
+button img {
+  font-size: 1.6rem;
+}
+
+button span {
+  font-family: abs.$font-body;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: abs.$neutral-white-color;
+}
+
+.product-price {
+  font-family: abs.$font-heading;
+  font-size: abs.$fontsize-h1;
+  font-weight: 700;
+  color: abs.$primary-cta-color;
+}
