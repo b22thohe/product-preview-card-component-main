@@ -19,8 +19,10 @@
   <main>
     <div class="flex-container">
       <div class="flex-image">
-        <img srcset="images/image-product-mobile.jpg 700w, images/image-product-desktop.jpg 600w" sizes="(max-width: 1439px) 355px, 600px"
-             src="images/image-product-desktop.jpg" alt="product image">
+        <picture>
+          <source media="(max-width: 1439px)" srcset="images/image-product-mobile.jpg">
+          <img src="images/image-product-desktop.jpg" alt="Product Image">
+        </picture>
       </div>
       <div class="card-content">
         <p class="product-category">Perfume</p>

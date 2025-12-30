@@ -77,6 +77,17 @@ button span {
   opacity: 0.6;
 }
 
+.product-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+@media (max-width: 1439px) {
+  img {
+    max-width: 90%;
+  }
+}
 html, body {
   font-size: 62.5%;
 }
