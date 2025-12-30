@@ -1,0 +1,17 @@
+p {
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+html, body {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,9 @@
+@use '../abstracts/variables' as var;
+
+p {
+  font-size: var.$fontsize-p;
+}
+
+h1 {
+  font-size: var.$fontsize-h1;
+}
