@@ -1,0 +1,16 @@
+// Abstracts
+@use '../abstracts' as abs;
+
+html, body {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: abs.$primary-bgc;
+}
+
+main {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

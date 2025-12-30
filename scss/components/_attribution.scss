@@ -1,0 +1,14 @@
+@use '../abstracts' as abs;
+
+.attribution {
+  font-size: 11px; text-align: center;
+  margin: 2rem 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution-heart {
+  color: red;
+}
