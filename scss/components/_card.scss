@@ -3,17 +3,42 @@
 .flex-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1.5rem;
 
   @media (min-width: 600px) {
     flex-direction: row;
+    max-width: 600px;
+    max-height: 450px;
   }
 }
 
 .card-content {
-  padding: 1.6rem 3.2rem 3.2rem;
   background-color: abs.$neutral-white-color;
+}
+
+.card-content__inner {
+  padding: 3.2rem;
 }
 
 .description {
   margin-bottom: 0;
+
+  @media (min-width: 600px) {
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 600px) {
+  .flex-image,
+  .card-content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+  }
+
+  .card-content__inner h1 {
+    line-height: 1;
+  }
 }
