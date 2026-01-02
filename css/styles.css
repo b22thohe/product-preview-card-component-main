@@ -50,10 +50,14 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
+@media (min-width: 600px) {
+  main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 .flex-container {
   display: flex;
   flex-direction: column;
